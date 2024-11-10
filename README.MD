@@ -71,12 +71,12 @@ Menu Options:
 - 2: Disconnect and close the application
 - Select an option (1 or 2): 
 
-- Option 1: Fetching Customer Journeys
+Option 1: Fetching Customer Journeys
 - Choose option 1 from the main menu.
 - Enter a valid username (e.g., cust3).
 - The application will call the get_customer_journeys procedure and display journey details in a tabular format.
 
-- Option 2: Disconnect and close the application.
+Option 2: Disconnect and close the application.
 The application will be disconnected .
 
 - If invalid menu input is given, then the application will ask to select the valid input i.e., 1 or 2
