@@ -19,6 +19,7 @@ Ensure you have the following installed:
 Install the required Python packages using:
 ```bash
 pip install pymysql tabulate cryptography
+```
 
 
 ## Database Setup
@@ -44,6 +45,7 @@ BEGIN
     ORDER BY ri.scheduled_date_time, r.origin_city_name;
 END //
 DELIMITER ;
+```
 This procedure retrieves journey information for a specific customer, ordered by the scheduled date and time, followed by the origin city.
 
 Running the Application
