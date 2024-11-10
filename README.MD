@@ -79,9 +79,9 @@ Option 1: Fetching Customer Journeys
 Option 2: Disconnect and close the application.
 The application will be disconnected .
 
-- If invalid menu input is given, then the application will ask to select the valid input i.e., 1 or 2
+If invalid menu input is given, then the application will ask to select the valid input i.e., 1 or 2
 
-- If invalid customer username is given, then the application will ask to select the valid customer usernames from list
+If invalid customer username is given, then the application will ask to select the valid customer usernames from list
 
 
 ## Cryptography Module Error
