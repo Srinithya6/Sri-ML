@@ -62,26 +62,26 @@ python hw8_busschema.py
 When prompted, enter your MySQL username and password.
 If the credentials are correct, you’ll see a confirmation message that you've successfully connected to the database.
 If the credentials are incorrect, an error message will prompt you to re-enter valid credentials.
-Select an Option:
 
-- Option 1: Fetch and display a list of journeys for a specific user.
-Enter a username to retrieve journey details.
-The results will display in a formatted table using tabulate.
-
-- Option 2: Disconnect and close the application.
-
-Fetching Customer Journeys
-Choose option 1 from the main menu.
-Enter a valid username (e.g., cust3).
-The application will call the get_customer_journeys procedure and display journey details in a tabular format.
-Example Output:
-Successfully connected to the database.
+If the credentials are correct, the application will ask to select an option
 
 Menu Options:
 
 - 1: Generate a list of journeys for a specific user
 - 2: Disconnect and close the application
 - Select an option (1 or 2): 
+
+- Option 1: Fetching Customer Journeys
+- Choose option 1 from the main menu.
+- Enter a valid username (e.g., cust3).
+- The application will call the get_customer_journeys procedure and display journey details in a tabular format.
+
+- Option 2: Disconnect and close the application.
+The application will be disconnected .
+
+- If invalid menu input is given, then the application will ask to select the valid input i.e., 1 or 2
+- If invalid customer username is given, then the application will ask to select the valid customer usernames from list
+
 
 ## Cryptography Module Error
 If you see an error about missing cryptography for authentication, ensure that the cryptography package is installed. Install it using:
