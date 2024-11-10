@@ -61,7 +61,6 @@ python hw8_busschema.py
 
 When prompted, enter your MySQL username and password.
 If the credentials are correct, you’ll see a confirmation message that you've successfully connected to the database.
-![Alt text](C:\Users\annes\OneDrive\Pictures\up.png)
 If the credentials are incorrect, an error message will prompt you to re-enter valid credentials.
 Select an Option:
 
