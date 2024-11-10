@@ -4,7 +4,7 @@ This Python application interacts with a MySQL database to retrieve customer jou
 
 ## Host Language
 
-The primary programming language used is **Python**. MySQL is used as the database system, and it supports structured queries and a stored procedure to retrieve journey information.
+The primary programming language used is **Python**. MySQL is used as the database system.
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ pip install pymysql tabulate cryptography
 1. Create the Database and Tables
 Use the provided SQL dump to create the bus_schema database and its tables. Run the SQL script in your MySQL environment to set up the tables, insert sample data, and establish necessary constraints.
 
-Create the get_customer_journeys stored procedure in the bus_schema database to retrieve customer journey information by running the following SQL commands in your MySQL environment:
+2. Create the get_customer_journeys stored procedure in the bus_schema database to retrieve customer journey information by running the following SQL commands in your MySQL environment:
 
 ```bash
 DELIMITER //
@@ -48,17 +48,20 @@ DELIMITER ;
 ```
 This procedure retrieves journey information for a specific customer, ordered by the scheduled date and time, followed by the origin city.
 
-Running the Application
-Start the MySQL Database: Ensure your MySQL server is running on localhost with a user who has access to the bus_schema database.
+## Running the Application
+1. Start the MySQL Database: Ensure your MySQL server is running on localhost with a user who has access to the bus_schema database.
 
-Run the Python Script: In in VSCode or PyCharm, execute the Python script from the command line in the directory where the script is located:
+2. Run the Python Script: In in VSCode or PyCharm, execute the Python script from the command line in the directory where the script is located:
 
-python hw8.py
+```bash
+python hw8_busschema.py
+```
 
 ## Enter Database Credentials:
 
 When prompted, enter your MySQL username and password.
 If the credentials are correct, you’ll see a confirmation message that you've successfully connected to the database.
+
 If the credentials are incorrect, an error message will prompt you to re-enter valid credentials.
 Select an Option:
 
@@ -80,9 +83,9 @@ If you encounter authentication issues, ensure that:
 
 ## Cryptography Module Error
 If you see an error about missing cryptography for authentication, ensure that the cryptography package is installed. Install it using:
-
+```bash
 pip install cryptography
-
+```
 
 ## MySQL Errors
 If the stored procedure fails, check:
