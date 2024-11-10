@@ -78,9 +78,10 @@ Example Output:
 Successfully connected to the database.
 
 Menu Options:
-1: Generate a list of journeys for a specific user
-2: Disconnect and close the application
-Select an option (1 or 2): 
+
+- 1: Generate a list of journeys for a specific user
+- 2: Disconnect and close the application
+- Select an option (1 or 2): 
 
 ## Cryptography Module Error
 If you see an error about missing cryptography for authentication, ensure that the cryptography package is installed. Install it using:
